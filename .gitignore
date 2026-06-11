@@ -1,0 +1,13 @@
+#build files
+build/
+*.o
+
+#executables
+bin/main
+
+#VTK outputs
+bin/*.vtk
+
+CUDA temporary files
+*.ptx
+*.cubin
